@@ -1,0 +1,3 @@
+```
+npx mrm lint-staged
+```

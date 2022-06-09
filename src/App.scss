@@ -1,0 +1,13 @@
+@import "scss/variables";
+
+.App {
+  h1 {
+    color: $primary-color;
+    span {
+      font-weight: 100;
+    }
+  }
+  h2 {
+    color: green;
+  }
+}

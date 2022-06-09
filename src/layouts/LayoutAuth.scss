@@ -1,0 +1,15 @@
+@import "../scss/index.scss";
+
+.layout-auth {
+  background-image: url("../assets/img/background-v1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
