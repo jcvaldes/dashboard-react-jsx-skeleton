@@ -32,6 +32,5 @@ export const useFetchUsers = (
       })
     })
   }, [isActive])
-
   return state
 }

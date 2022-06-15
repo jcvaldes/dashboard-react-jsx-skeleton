@@ -22,7 +22,8 @@ const MenuSider = ({ menuCollapsed }) => {
       <Menu
         theme='dark'
         mode='inline'
-        defaultSelectedKeys={pathname}
+        // defaultSelectedKeys={pathname}
+        selectedKeys={pathname}
         items={[
           {
             key: '/admin',
@@ -46,46 +47,6 @@ const MenuSider = ({ menuCollapsed }) => {
             label: `Menú`,
             onClick: () => {
               navigate('/admin/menu')
-            }
-          },
-          {
-            key: '/admin/orders',
-            icon: <UsergroupAddOutlined />,
-            label: `Realizar Pedidos`,
-            onClick: () => {
-              navigate('/admin/orders')
-            }
-          },
-          {
-            key: '/admin/history',
-            icon: <FormOutlined />,
-            label: `Historial Pedidos`,
-            onClick: () => {
-              navigate('/admin/history')
-            }
-          },
-          {
-            key: '/admin/shipments',
-            icon: <FormOutlined />,
-            label: `Envíos`,
-            onClick: () => {
-              navigate('/admin/shipments')
-            }
-          },
-          {
-            key: '/admin/payments',
-            icon: <FormOutlined />,
-            label: `Pagos`,
-            onClick: () => {
-              navigate('/admin/payments')
-            }
-          },
-          {
-            key: '/admin/invoices',
-            icon: <SnippetsOutlined />,
-            label: `Facturas`,
-            onClick: () => {
-              navigate('/admin/invoices')
             }
           },
           {
