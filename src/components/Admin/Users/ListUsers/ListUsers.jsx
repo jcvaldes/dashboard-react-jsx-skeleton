@@ -141,8 +141,7 @@ const ListUsers = () => {
                 }
                 title={`
                 ${user.name ? user.name : '...'}
-                ${user.lastname ? user.lastname : '...'}
-            `}
+                ${user.lastname ? user.lastname : '...'}`}
                 description={user.email}
               />
             </List.Item>

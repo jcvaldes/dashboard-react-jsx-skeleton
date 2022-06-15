@@ -43,6 +43,8 @@ export default function AuthProvider({ children }) {
     }
   }
   useEffect(() => {
+    // eslint-disable-next-line no-console
+    console.log('Authprovider paso')
     // esto se ejecuta siempre que se carga una pagina
     verifyUserLogin()
   }, [])
